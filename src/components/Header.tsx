@@ -47,11 +47,11 @@ const Header = () => {
         className='mb-8'
       >
         <CarouselContent> {/* contenedor para los elementos del carrusel */}
-          <CarouselItem>  
+          <CarouselItem>
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
               <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className=" md:text-gray-800 mb-4">
+                <p className="md:text-gray-800 mb-4">
                   ¡Transformando La Rioja, día a día!
                 </p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -63,9 +63,9 @@ const Header = () => {
               </div>
               
               {/* Gradiente de tailwind, puedes especificar valores personalizados rgba con []. */}
-              <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.4)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
+              <div className=" absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.2)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
               
-              <img src={banner1} alt="Banner 1" className="absolute inset-0 w-full h-full object-cover object-position-mobile "  />
+              <img src={banner1} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3" />
             </div>
           </CarouselItem>
 
@@ -77,7 +77,7 @@ const Header = () => {
                   ¡Transformando La Rioja, día a día!
                 </p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                  Juzgado de Paz Lego N°3 
+                  Juzgado de Paz Lego N°3
                 </h1>
                 <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
@@ -85,9 +85,9 @@ const Header = () => {
               </div>
               
               {/* Gradiente de tailwind, puedes especificar valores personalizados rgba con []. */}
-              <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.4)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
+              <div className=" absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.2)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
               
-              <img src={banner2} alt="Banner 2" className="absolute inset-0 w-full h-full object-cover object-position-mobile " />
+              <img src={banner2} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3" />
             </div>
           </CarouselItem>
         
@@ -109,7 +109,7 @@ const Header = () => {
               {/* Gradiente de tailwind, puedes especificar valores personalizados rgba con []. */}
               <div className=" absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.2)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
               
-              <img src={banner3} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3 " />
+              <img src={banner3} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3" />
             </div>
           </CarouselItem>
         </CarouselContent>

@@ -20,17 +20,17 @@ export function MarqueeFrases() {
       <Marquee pauseOnHover className="[--duration:20s]">
       <div className="flex items-center gap-4 mx-8">
         <img src={img1} alt="CEPAR Sur" className="w-16 h-16 object-cover rounded-full" />
-        <p className="text-xl"> Comprometidos con la Justicia Comunitaria en La Rioja </p>
+        <p className="text-lg"> Comprometidos con la Justicia Comunitaria en La Rioja </p>
       </div>
 
       <div className="flex items-center gap-4 mx-8">
         <img src={img1} alt="CEPAR Sur" className="w-16 h-16 object-cover rounded-full" />
-        <p className="text-xl"> Asesoramiento legal gratuito para resolver tus inquietudes </p>
+        <p className="text-lg"> Asesoramiento legal gratuito para resolver tus inquietudes </p>
       </div>
 
       <div className="flex items-center gap-4 mx-8">
         <img src={img1} alt="CEPAR Sur" className="w-16 h-16 object-cover rounded-full" />
-        <p className="text-xl"> Trabajamos para fortalecer la paz y la justicia en tu barrio </p>
+        <p className="text-lg md:text-xl"> Trabajamos para fortalecer la paz y la justicia en tu barrio </p>
       </div>
       </Marquee>
 
