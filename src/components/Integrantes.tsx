@@ -7,7 +7,12 @@ import mercedes1 from '../assets/m1.png';
 import mercedes2 from '../assets/m2.png';
 import mercedes3 from '../assets/m3.png';
 
-const ShiftControl = () => {
+interface IntegrantesProps {
+    id?: string;
+  }
+  
+
+const ShiftControl = ({id}: IntegrantesProps) => {
     const [api, setApi] = useState<CarouselApi>();
     const [current, setCurrent] = useState(0);
 
@@ -26,8 +31,8 @@ const ShiftControl = () => {
     };
 
     return (
-        <div className="bg-primary py-14">
-            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3"> Personas comprometidas con la justicia comunitaria </h3>
+        <div id={id} className="bg-primary py-14">
+            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3 text-gray-800"> Personas comprometidas con la justicia comunitaria </h3>
             <h2 className="font-poppins font-bold text-center text-3xl md:text-h2-desktop mb-8"> ¿Quiénes lo integran? </h2>
             <Carousel
                 setApi={setApi}
@@ -56,10 +61,10 @@ const ShiftControl = () => {
                                         />
                                     </div>
                                     <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
-                                        <div className="mt-24">
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mercedes Negri</p>                                          
-                                            <p className="font-roboto text-center text-small md:text-small-desktop"> Jueza de Paz Lego</p>
+                                        <div className="mt-3">
+                                            <p className="font-roboto text-center text-base md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
+                                            <p className="font-roboto text-center text-base md:text-p-desktop mb-4">Mercedes Negri</p>                                          
+                                            <p className="font-roboto text-center text-p md:text-small-desktop"> Jueza de Paz Lego</p>
                                         </div>
                                     </div>
                                 </div>
@@ -77,11 +82,11 @@ const ShiftControl = () => {
                                             className="w-full h-full object-cover"
                                         />
                                     </div>
-                                    <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
-                                        <div className="mt-24">
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mercedes Negri</p>                                          
-                                            <p className="font-roboto text-center text-small md:text-small-desktop"> Jueza de Paz Lego</p>
+                                    <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0" >
+                                        <div className="mt-3">
+                                            <p className="font-roboto text-center text-base md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
+                                            <p className="font-roboto text-center text-base md:text-p-desktop mb-4">Mercedes Negri</p>                                          
+                                            <p className="font-roboto text-center text-p md:text-small-desktop"> Jueza de Paz Lego</p>
                                         </div>
                                     </div>
                                 </div>
@@ -100,10 +105,10 @@ const ShiftControl = () => {
                                         />
                                     </div>
                                     <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
-                                        <div className="mt-24">
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mercedes Negri</p>                                          
-                                            <p className="font-roboto text-center text-small md:text-small-desktop"> Jueza de Paz Lego</p>
+                                        <div className="mt-3">
+                                            <p className="font-roboto text-center text-base md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
+                                            <p className="font-roboto text-center text-base md:text-p-desktop mb-4">Mercedes Negri</p>                                          
+                                            <p className="font-roboto text-center text-p md:text-small-desktop"> Jueza de Paz Lego</p>
                                         </div>
                                     </div>
                                 </div>

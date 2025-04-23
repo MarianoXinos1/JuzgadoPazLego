@@ -10,10 +10,10 @@ export default function Home() {
     <div className="bg-gray-50">
       <Header />
       <MarqueeFrases />
-      <Services/>
-      <ShiftControl/>
-      <Mapa/>
-      <Accordion />
+      <Services id='servicios'/>
+      <ShiftControl id='integrantes'/>
+      <Mapa id='ubicacion'/>
+      <Accordion id='consultas' />
     </div>
   );
 }

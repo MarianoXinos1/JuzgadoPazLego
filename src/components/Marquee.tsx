@@ -13,7 +13,7 @@ export function MarqueeFrases() {
   return (
     <section className="relative flex h-[260px] w-full flex-col items-center justify-center overflow-hidden bg-gray-50 ">
       <div className="flex flex-col items-center text-center max-w-96 md:max-w-none px-2 ">
-        <p className="text-p md:text-p-desktop mb-3"> Justicia al Alcance de Todos  </p>
+        <p className="text-p md:text-p-desktop mb-3 text-gray-800"> Justicia al Alcance de Todos  </p>
         <h3 className="text-3xl md:text-h2-desktop font-bold mb-6 "> Tu Derecho, Nuestra Prioridad </h3>
       </div>
       

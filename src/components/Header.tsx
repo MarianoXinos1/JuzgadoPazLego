@@ -51,13 +51,13 @@ const Header = () => {
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
               <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className="text-gray-800 md:text-gray-700 mb-4">
+                <p className=" md:text-gray-800 mb-4">
                   ¡Transformando La Rioja, día a día!
                 </p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
                   Juzgado de Paz Lego N°3
                 </h1>
-                <p className="text-gray-800 md:text-gray-700 mb-4">
+                <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
               </div>
@@ -73,13 +73,13 @@ const Header = () => {
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
               <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className="text-gray-800 md:text-gray-700 mb-4">
+                <p className="md:text-gray-800 mb-4">
                   ¡Transformando La Rioja, día a día!
                 </p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
                   Juzgado de Paz Lego N°3 
                 </h1>
-                <p className="text-gray-800 md:text-gray-700 mb-4">
+                <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
               </div>
@@ -95,13 +95,13 @@ const Header = () => {
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
               <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className="text-gray-800 md:text-gray-700 mb-4">
+                <p className="md:text-gray-800 mb-4">
                   ¡Transformando La Rioja, día a día!
                 </p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
                   Juzgado de Paz Lego N°3
                 </h1>
-                <p className="text-gray-800 md:text-gray-700 mb-4">
+                <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
               </div>

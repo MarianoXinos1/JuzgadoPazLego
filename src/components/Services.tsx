@@ -3,7 +3,13 @@ import img2 from '../assets/f4.jpg';
 import img3 from '../assets/f5.jpg';
 import img4 from '../assets/f6.jpg';
 
-const Services = () => {
+interface ServicesProps {
+    id?: string;  
+  }
+  
+
+//Ponemos el id para el nabvar
+const Services = ({id}: ServicesProps) => {
     const services = [
         {
             name: "Resolución de Conflictos Civiles y Comerciales",
@@ -33,11 +39,11 @@ const Services = () => {
     ];
 
     return (
-        <section className="bg-primary max-w-full py-10 px-4">
+        <section id={id} className="bg-primary max-w-full py-10 px-4">
             <article className='max-w-full mx-auto my-10 px-4 text-center '>     
-                <div className="flex flex-col gap-4 items-center">          
+                <div className="flex flex-col gap-3 items-center">          
                     <h2 className="text-h2 font-bold font-sans"> Servicios que ofrecemos </h2>
-                    <p className="max-w-md">
+                    <p className="max-w-md ">
                         Nuestro compromiso es servir a la comunidad. Estamos aqui para escucharte, asesorarte y acompañarte en tus tramites.
                     </p>
                 </div>

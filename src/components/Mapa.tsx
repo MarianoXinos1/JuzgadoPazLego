@@ -1,12 +1,16 @@
+interface MapaProps {
+  id?: string;
+}
 
-export default function Mapa() {
+export default function Mapa({id}: MapaProps) {
   return (
-    <div className="w-full max-w-3xl mx-auto px-10 py-16">
-      <div className="text-center mb-8">
+    <div id={id} className="w-full max-w-3xl mx-auto px-10 py-16">
+      <div className="text-center mb-6">
         <h2 className="text-3xl font-bold"> Nuestra Ubicación </h2>
-        <p className="text-sm text-gray-500 mb-4 mt-2">
-          Encuéntranos en el Edificio del Cepar Sur, Ortiz de Ocampo 2247, La Rioja.
-        </p>
+        <div className="flex flex-col gap-2 text-sm text-gray-800 mt-3">
+          <p>Encuéntranos en el Edificio del Cepar Sur, Ortiz de Ocampo 2247, La Rioja.</p>
+          <p>Nuestro horario de atención es de lunes a viernes, de 7:00 a 13:00 horas.</p>
+        </div>
       </div>
       <div className="w-full h-96">
         {/* iframe: Es el elemento de GoogleMaps que carga el mapa */}

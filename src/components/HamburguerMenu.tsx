@@ -28,19 +28,22 @@ export const HamburguerMenu = () => {
                             {/* Botón de cierre */}
                             <FontAwesomeIcon icon={faXmark} className="text-black w-6 h-6 cursor-pointer" onClick={toggleMenu} />
                             <hr className="border-t border-gray-300 w-full " />
-
+                            
                             <ul className="space-y-4 text-p-desktop">
                                 <li>
                                     <Link to='/' onClick={toggleMenu}>Inicio</Link>
                                 </li>
                                 <li>
-                                    <Link to='/services' onClick={toggleMenu}>Servicios</Link>
+                                    <a href="#servicios" onClick={toggleMenu}>Servicios</a>
                                 </li>
                                 <li>
-                                    <Link to='/plans' onClick={toggleMenu}>Planes</Link>
+                                    <a href="#integrantes" onClick={toggleMenu}>Integrantes</a>
                                 </li>
                                 <li>
-                                    <Link to='/companies' onClick={toggleMenu}>Empresas</Link>
+                                    <a href="#ubicacion" onClick={toggleMenu}>Ubicación</a>
+                                </li>
+                                <li>
+                                    <a href="#consultas" onClick={toggleMenu}>Consultas</a>
                                 </li>
                             </ul>                                        
                         </div>

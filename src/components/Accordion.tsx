@@ -1,33 +1,39 @@
 import * as Accordions from "@radix-ui/react-Accordion";
 import { MdChevronRight } from "react-icons/md";
 
-export default function Accordion() {
+interface AccordionProps {
+  id?: string;
+}
+
+
+export default function Accordion({id}: AccordionProps) {
   return (
-    <div className="w-full max-w-3xl mx-auto px-10 py-16">
+    <div id={id} className="w-full max-w-3xl mx-auto px-10 pt-16 pb-24">
       <div className="text-center mb-8">
-        <p className="text-sm text-gray-500 mb-2">
+        <p className="text-sm text-gray-800 mb-2">
           Estas son las preguntas frecuentes.
         </p>
         <h2 className="text-3xl font-bold">¿Aún con dudas?</h2>
       </div>
 
       <Accordions.Root type="single" collapsible className="space-y-4">
-      <AccordionsItem
-          value="item-1"
-          question="¿Cuáles son nuestros horarios de atención?"
-        >
-          Nuestro horario de atención es de lunes a viernes, de 7:00 a 13:00 horas. Estamos aquí para ayudarte con tus trámites y consultas.
-        </AccordionsItem>
-
-        <AccordionsItem value="item-2" question="¿Cuáles son los trámites que no podemos realizar?">
+        <AccordionsItem value="item-1" 
+          question="¿Cuáles son los trámites que no podemos realizar?">
           No hacemos contratos de locación, boletos de compra-venta, certificado 08. Nada relacionado con compra o venta de viviendas, automotores, juicios sucesorios, juicios desalojos, convenios de familias o menores. Tampoco hacemos autorizaciones para salir del país con menores de edad.
         </AccordionsItem>
 
         <AccordionsItem
-          value="item-3"
+          value="item-2"
           question="¿Qué hacemos y cómo podemos ayudarte con tus trámites?"
         >
           Hacemos licencias de conducir, declaraciones juradas, certificación de firmas-copias, asuntos contenciosos y de jurisdición en materia civil y comercial hasta los 200mil pesos.
+        </AccordionsItem>
+
+        <AccordionsItem
+          value="item-3"
+          question="¿Cuáles son nuestros horarios de atención?"
+        >
+          Nuestro horario de atención es de lunes a viernes, de 7:00 a 13:00 horas. Estamos aquí para ayudarte con tus trámites y consultas.
         </AccordionsItem>
       </Accordions.Root>
     </div>

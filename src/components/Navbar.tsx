@@ -4,9 +4,6 @@ import { HamburguerMenu } from './HamburguerMenu';
 
 export const Navbar = () => {
    
-
-
-
     return (
         <nav className= 'flex items-center justify-between md:justify-around bg-white m-5 '>
             <section>
@@ -19,13 +16,16 @@ export const Navbar = () => {
                         <Link to='/'> Inicio </Link>
                     </li>
                     <li>
-                        <Link to='/services'> Servicios </Link>
+                        <a href="#servicios"> Servicios </a>
                     </li>
                     <li>
-                        <Link to='/plans'> Horarios </Link>
+                        <a href="#integrantes"> Integrantes </a>
                     </li>
                     <li>
-                        <Link to='/companies'> Integrantes </Link>
+                        <a href="#ubicacion"> Ubicación </a>
+                    </li>
+                    <li>
+                        <a href="#consultas"> Consultas </a>
                     </li>
                 </ul>
             </section>
