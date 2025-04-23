@@ -1,4 +1,4 @@
-import * as Accordions from "@radix-ui/react-Accordion";
+import * as Accordions from "@radix-ui/react-accordion";
 import { MdChevronRight } from "react-icons/md";
 
 interface AccordionProps {
