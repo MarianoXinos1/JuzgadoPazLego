@@ -1,8 +1,9 @@
 import Accordion from "../components/Accordion";
 import Header from "../components/Header";
-import {MarqueeFrases} from '../components/Clinicas'
-import ShiftControl from "@/components/welcome/ShiftControl";
-import {Services} from "../components/Services";
+import {MarqueeFrases} from '../components/Marquee'
+import ShiftControl from "@/components/Integrantes";
+import Services from "../components/Services";
+import Mapa from '../components/Mapa';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <MarqueeFrases />
       <Services/>
       <ShiftControl/>
+      <Mapa/>
       <Accordion />
     </div>
   );

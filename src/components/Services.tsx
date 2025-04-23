@@ -3,7 +3,7 @@ import img2 from '../assets/f4.jpg';
 import img3 from '../assets/f5.jpg';
 import img4 from '../assets/f6.jpg';
 
-export const Services = () => {
+const Services = () => {
     const services = [
         {
             name: "Resolución de Conflictos Civiles y Comerciales",
@@ -65,3 +65,5 @@ export const Services = () => {
         </section>
     );
 };
+
+export default Services;

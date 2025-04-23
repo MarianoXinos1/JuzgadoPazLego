@@ -12,51 +12,22 @@ export default function Accordion() {
       </div>
 
       <Accordions.Root type="single" collapsible className="space-y-4">
-        <AccordionsItem value="item-1" question="¿Cómo reservar un turno?">
-          Reservar un turno es muy sencillo: ingresá a nuestra plataforma, buscá
-          al profesional que necesitás usando los filtros disponibles y
-          seleccioná el horario que mejor se adapte a vos. Confirmá tu cita con
-          un solo clic y recibí la información directamente en tu email o SMS.
+      <AccordionsItem
+          value="item-1"
+          question="¿Cuáles son nuestros horarios de atención?"
+        >
+          Nuestro horario de atención es de lunes a viernes, de 7:00 a 13:00 horas. Estamos aquí para ayudarte con tus trámites y consultas.
         </AccordionsItem>
 
-        <AccordionsItem
-          value="item-2"
-          question="¿Puedo cancelar o reprogramar una cita?"
-        >
-          Sí, podés cancelar o reprogramar tu cita directamente desde tu cuenta.
-          Solo necesitás acceder a la sección de "Mis turnos", seleccionar la
-          cita que querés modificar y elegir una nueva fecha u hora. Siempre te
-          avisaremos si hay costos asociados a la cancelación.
+        <AccordionsItem value="item-2" question="¿Cuáles son los trámites que no podemos realizar?">
+          No hacemos contratos de locación, boletos de compra-venta, certificado 08. Nada relacionado con compra o venta de viviendas, automotores, juicios sucesorios, juicios desalojos, convenios de familias o menores. Tampoco hacemos autorizaciones para salir del país con menores de edad.
         </AccordionsItem>
 
         <AccordionsItem
           value="item-3"
-          question="¿Es seguro ingresar mis datos médicos?"
+          question="¿Qué hacemos y cómo podemos ayudarte con tus trámites?"
         >
-          Absolutamente, la seguridad de tus datos es nuestra prioridad.
-          Contamos con sistemas de encriptación avanzados que protegen toda tu
-          información. Además, cumplimos con las normativas de privacidad médica
-          vigentes para garantizar tu tranquilidad.
-        </AccordionsItem>
-
-        <AccordionsItem
-          value="item-4"
-          question="¿Puedo solicitar citas para terceros?"
-        >
-          Sí, podés agendar turnos para familiares o amigos fácilmente. Solo
-          necesitás seleccionar la opción de "Cita para terceros" y completar
-          los datos del paciente. Es ideal para gestionar citas médicas de tus
-          seres queridos de manera práctica, rápida y a cualquier hora.
-        </AccordionsItem>
-
-        <AccordionsItem
-          value="item-5"
-          question="¿Qué pasa si el médico cambia la fecha de turno?"
-        >
-          Si el profesional modifica tu turno, recibirás una notificación
-          inmediata por email o SMS con los detalles actualizados. Podrás
-          aceptar el nuevo horario o buscar otro disponible desde tu cuenta. Así
-          te asegurás de que siempre estés al tanto de cualquier cambio.
+          Hacemos licencias de conducir, declaraciones juradas, certificación de firmas-copias, asuntos contenciosos y de jurisdición en materia civil y comercial hasta los 200mil pesos.
         </AccordionsItem>
       </Accordions.Root>
     </div>

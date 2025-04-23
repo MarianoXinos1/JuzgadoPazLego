@@ -7,20 +7,6 @@ import img1 from '../assets/l1.jpg'
 
 
 
-// const reviews = [
-//   {
-//     img: img1,
-//   },
-//   {
-//     img: img2,
-//   },
-
-
-// ];
-
-
-
-
 
 export function MarqueeFrases() {
 
@@ -28,23 +14,23 @@ export function MarqueeFrases() {
     <section className="relative flex h-[260px] w-full flex-col items-center justify-center overflow-hidden bg-gray-50 ">
       <div className="flex flex-col items-center text-center max-w-96 md:max-w-none px-2 ">
         <p className="text-p md:text-p-desktop mb-3"> Justicia al Alcance de Todos  </p>
-        <h3 className="text-3xl md:text-h2-desktop font-bold mb-6 "> Centro de Atención Legal Comunitario </h3>
+        <h3 className="text-3xl md:text-h2-desktop font-bold mb-6 "> Tu Derecho, Nuestra Prioridad </h3>
       </div>
       
       <Marquee pauseOnHover className="[--duration:20s]">
       <div className="flex items-center gap-4 mx-8">
         <img src={img1} alt="CEPAR Sur" className="w-16 h-16 object-cover rounded-full" />
-        <p className="text-xl"> Mediación vecinal y resolución de conflictos comunitarios </p>
+        <p className="text-xl"> Comprometidos con la Justicia Comunitaria en La Rioja </p>
       </div>
 
       <div className="flex items-center gap-4 mx-8">
         <img src={img1} alt="CEPAR Sur" className="w-16 h-16 object-cover rounded-full" />
-        <p className="text-xl"> Comprometidos con el acceso a la justicia en La Rioja </p>
+        <p className="text-xl"> Asesoramiento legal gratuito para resolver tus inquietudes </p>
       </div>
 
       <div className="flex items-center gap-4 mx-8">
         <img src={img1} alt="CEPAR Sur" className="w-16 h-16 object-cover rounded-full" />
-        <p className="text-xl"> Asesoramiento legal gratuito para tu comunidad </p>
+        <p className="text-xl"> Trabajamos para fortalecer la paz y la justicia en tu barrio </p>
       </div>
       </Marquee>
 

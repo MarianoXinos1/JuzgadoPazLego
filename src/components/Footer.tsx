@@ -14,9 +14,7 @@ const Footer = () => {
                         <a href="#" aria-label="Instagram" className="text-black hover:text-gray-600">
                             <FaInstagram className="w-6 h-6" />
                         </a>
-                        <a href="#" aria-label="YouTube" className="text-black hover:text-gray-600">
-                            <FaYoutube className="w-6 h-6" />
-                        </a>
+                      
                     </div>
                 </div>
 
@@ -24,9 +22,10 @@ const Footer = () => {
                 <div>
                     <h3 className="font-semibold mb-4">Información de contacto</h3>
                     <p>+54 9 (11) 2387-57xx</p>
-                    <p>info@turnos.app</p>
-                    <p>Arenales 000, Of. 000 esq. Av. del Libertador</p>
-                    <p>Vicente López, Buenos Aires, Argentina.</p>
+                    <p> juzgado@hotmail.com </p>
+                    <p> Juzgado de Paz Lego N°3 esta ubicado: </p>
+                    <p> En el edificio del Cepar Sur en la Ortiz de Ocampo 2247 </p>
+                   
                 </div>
 
                 {/* Sección del Formulario */}
@@ -62,22 +61,7 @@ const Footer = () => {
             {/* Línea inferior con enlaces */}
             <div className="text-center border-t border-gray-300 mt-6 pt-4">
                 <p className="text-gray-500">
-                    &copy; 2024 TurnON.{' '}
-                    <a href="#" className="text-blue-500 hover:underline">
-                        Términos y condiciones
-                    </a>{' '}
-                    |{' '}
-                    <a href="#" className="text-blue-500 hover:underline">
-                        Política de privacidad
-                    </a>{' '}
-                    |{' '}
-                    <a href="#" className="text-blue-500 hover:underline">
-                        Trabaja con nosotros
-                    </a>{' '}
-                    |{' '}
-                    <a href="#" className="text-blue-500 hover:underline">
-                        Ayuda
-                    </a>
+                    Todos los derechos reservados 2025 &copy; Juzgado de Paz Lego N°3
                 </p>
             </div>
         </footer>

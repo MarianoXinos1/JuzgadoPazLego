@@ -1,8 +1,11 @@
-import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Fade from "embla-carousel-fade";
 import { useState, useEffect } from "react";
 import { type CarouselApi } from "@/components/ui/carousel";
+import mercedes1 from '../assets/m1.png';
+import mercedes2 from '../assets/m2.png';
+import mercedes3 from '../assets/m3.png';
 
 const ShiftControl = () => {
     const [api, setApi] = useState<CarouselApi>();
@@ -23,14 +26,14 @@ const ShiftControl = () => {
     };
 
     return (
-        <div className="bg-primary py-16">
-            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3">Conoce las experiencias de nuestros clientes</h3>
-            <h2 className="font-poppins font-bold text-center text-3xl md:text-h2-desktop mb-8">¿Qué es tener una buena gestión de turnos?</h2>
+        <div className="bg-primary py-14">
+            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3"> Personas comprometidas con la justicia comunitaria </h3>
+            <h2 className="font-poppins font-bold text-center text-3xl md:text-h2-desktop mb-8"> ¿Quiénes lo integran? </h2>
             <Carousel
                 setApi={setApi}
                 plugins={[
                     Autoplay({
-                        delay: 2000,
+                        delay: 2500,
                         stopOnInteraction: false,
                     }),
                     Fade(),
@@ -47,16 +50,16 @@ const ShiftControl = () => {
                                 <div className="md:flex md:flex-row w-full md:shadow-2xl md:rounded-xl overflow-hidden">
                                     <div className="w-full md:w-[367px] h-[300px] md:h-[347px] rounded-xl shadow-xl overflow-hidden md:rounded-none md:shadow-none mb-4 md:mb-0">
                                         <img
-                                            src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
+                                            src={mercedes2}
                                             alt="Buena gestión de turnos"
                                             className="w-full h-full object-cover"
                                         />
                                     </div>
                                     <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
                                         <div className="mt-24">
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Siempre se me complicaba coordinar las citas médicas de mis hijos. Ahora recibo recordatorios automáticos y puedo gestionar todo desde mi celular, incluso en horarios que antes eran imposibles. Me solucionó la vida."</p>
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Silvana Iglesias</p>
-                                            <p className="font-roboto text-center text-small md:text-small-desktop">CEO en Mercado Libre.</p>
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mercedes Negri</p>                                          
+                                            <p className="font-roboto text-center text-small md:text-small-desktop"> Jueza de Paz Lego</p>
                                         </div>
                                     </div>
                                 </div>
@@ -69,16 +72,16 @@ const ShiftControl = () => {
                                 <div className="md:flex md:flex-row w-full md:shadow-2xl md:rounded-xl overflow-hidden">
                                     <div className="w-full md:w-[367px] h-[300px] md:h-[347px] rounded-xl shadow-xl overflow-hidden md:rounded-none md:shadow-none mb-4 md:mb-0">
                                         <img
-                                            src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486286/TurnOn/zup2gaboepf2bec7vbnj.jpg"
+                                            src={mercedes1}
                                             alt="Buena gestión de turnos"
                                             className="w-full h-full object-cover"
                                         />
                                     </div>
                                     <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
                                         <div className="mt-24">
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Antes dependía de mis hijos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                            <p className="font-roboto text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mercedes Negri</p>                                          
+                                            <p className="font-roboto text-center text-small md:text-small-desktop"> Jueza de Paz Lego</p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,16 +94,16 @@ const ShiftControl = () => {
                                 <div className="md:flex md:flex-row w-full md:shadow-2xl md:rounded-xl overflow-hidden">
                                     <div className="w-full md:w-[367px] h-[300px] md:h-[347px] rounded-xl shadow-xl overflow-hidden md:rounded-none md:shadow-none mb-4 md:mb-0">
                                         <img
-                                            src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486284/TurnOn/gfabi7q6ik3s3lgypmuo.png"
+                                            src={mercedes3}
                                             alt="Buena gestión de turnos"
                                             className="w-full h-full object-cover"
                                         />
                                     </div>
                                     <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
                                         <div className="mt-24">
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Con mi agenda tan ajustada, agendar turnos siempre era un problema. Desde que uso este sistema, puedo buscar médicos cerca de casa y pagar todo online en minutos. ¡Es súper práctico y eficiente!"</p>
-                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mariano González</p>
-                                            <p className="font-roboto text-center text-small md:text-small-desktop">Desarrollador de software.</p>
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Mi compromiso es garantizar que cada persona en nuestra comunidad tenga acceso a la justicia de manera rápida, cercana y efectiva."</p>  
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mercedes Negri</p>                                          
+                                            <p className="font-roboto text-center text-small md:text-small-desktop"> Jueza de Paz Lego</p>
                                         </div>
                                     </div>
                                 </div>

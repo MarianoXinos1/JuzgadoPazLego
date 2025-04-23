@@ -3,12 +3,12 @@ import '../index.css'
 //biblioteca embla-carousel
 import Autoplay from "embla-carousel-autoplay";
 import Fade from "embla-carousel-fade";
-//
+
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
-import banner1 from'../assets/f2.jpg';
-import banner2 from '../assets/f2.jpg';
-import banner3 from '../assets/f2.jpg';
+import banner1 from'../assets/b2.jpg';
+import banner2 from '../assets/b2.jpg';
+import banner3 from '../assets/b2.jpg';
 
 
 
