@@ -31,20 +31,51 @@ export const HamburguerMenu = () => {
                             
                             <ul className="space-y-4 text-p-desktop">
                                 <li>
-                                    <Link to='/' onClick={toggleMenu}>Inicio</Link>
+                                    <Link
+                                        to='/'
+                                        onClick={() => {toggleMenu(); window.scrollTo({ top: 0, behavior: 'smooth' });}}
+                                        className="relative text-gray-700 hover:text-gray-900 transition-colors font-medium pb-1 after:absolute after:block after:content-[''] after:h-0.5 after:bg-gray-900 after:w-0 hover:after:w-full after:left-0 after:bottom-0 after:transition-all after:duration-300"
+                                    >
+                                        Inicio
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#servicios" onClick={toggleMenu}>Servicios</a>
+                                    <a
+                                        href="#servicios"
+                                        onClick={toggleMenu}
+                                        className="relative text-gray-700 hover:text-gray-900 transition-colors font-medium pb-1 after:absolute after:block after:content-[''] after:h-0.5 after:bg-gray-900 after:w-0 hover:after:w-full after:left-0 after:bottom-0 after:transition-all after:duration-300"
+                                    >
+                                        Servicios
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#integrantes" onClick={toggleMenu}>Integrantes</a>
+                                    <a
+                                        href="#integrantes"
+                                        onClick={toggleMenu}
+                                        className="relative text-gray-700 hover:text-gray-900 transition-colors font-medium pb-1 after:absolute after:block after:content-[''] after:h-0.5 after:bg-gray-900 after:w-0 hover:after:w-full after:left-0 after:bottom-0 after:transition-all after:duration-300"
+                                    >
+                                        Integrantes
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#ubicacion" onClick={toggleMenu}>Ubicación</a>
+                                    <a
+                                        href="#ubicacion"
+                                        onClick={toggleMenu}
+                                        className="relative text-gray-700 hover:text-gray-900 transition-colors font-medium pb-1 after:absolute after:block after:content-[''] after:h-0.5 after:bg-gray-900 after:w-0 hover:after:w-full after:left-0 after:bottom-0 after:transition-all after:duration-300"
+                                    >
+                                        Ubicación
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="#consultas" onClick={toggleMenu}>Consultas</a>
+                                    <a
+                                        href="#consultas"
+                                        onClick={toggleMenu}
+                                        className="relative text-gray-700 hover:text-gray-900 transition-colors font-medium pb-1 after:absolute after:block after:content-[''] after:h-0.5 after:bg-gray-900 after:w-0 hover:after:w-full after:left-0 after:bottom-0 after:transition-all after:duration-300"
+                                    >
+                                        Consultas
+                                    </a>
                                 </li>
+                                
                             </ul>                                        
                         </div>
                     </section>

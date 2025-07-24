@@ -39,16 +39,16 @@ const Services = ({id}: ServicesProps) => {
     ];
 
     return (
-        <section id={id} className="bg-primary max-w-full py-10 px-4">
-            <article className='max-w-full mx-auto my-10 px-4 text-center '>     
-                <div className="flex flex-col gap-3 items-center">          
-                    <h2 className="text-h2 font-bold font-sans"> Servicios que ofrecemos </h2>
-                    <p className="max-w-md ">
+        <section id={id} className="bg-primary max-w-full py-10 px-4" >
+            <article className='max-w-full mx-auto mt-6 mb-10 px-4 text-center'>     
+                <div className="flex flex-col gap-3 items-center pb-4">          
+                    <h2 className="text-4xl md:text-5xl font-bold" data-aos="zoom-in-up" data-aos-duration="800"> Servicios que ofrecemos </h2>
+                    <p className="max-w-md " data-aos="zoom-in-up" data-aos-duration="800">
                         Nuestro compromiso es servir a la comunidad. Estamos aqui para escucharte, asesorarte y acompañarte en tus tramites.
                     </p>
                 </div>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                     {services.map((services, index) => (
                         <div
                             key={index}

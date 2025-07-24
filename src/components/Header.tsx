@@ -50,21 +50,22 @@ const Header = () => {
           <CarouselItem>
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
-              <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className="md:text-gray-800 mb-4">
-                  ¡Transformando La Rioja, día a día!
-                </p>
-                <h1 className="text-3xl md:text-4xl font-bold mb-4">
+              <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">            
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
                   Juzgado de Paz Lego N°3
                 </h1>
                 <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
+                <button
+                  className="mt-2 px-6 py-2 rounded-full bg-purple-700 text-white font-semibold shadow-md hover:bg-purple-800 transition-colors duration-200"
+                  onClick={() => window.location.href = '#ubicacion'}
+                >
+                  Visítanos
+                </button>
               </div>
-              
               {/* Gradiente de tailwind, puedes especificar valores personalizados rgba con []. */}
               <div className=" absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.2)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
-              
               <img src={banner1} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3" />
             </div>
           </CarouselItem>
@@ -72,43 +73,45 @@ const Header = () => {
           <CarouselItem>
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
-              <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className="md:text-gray-800 mb-4">
-                  ¡Transformando La Rioja, día a día!
-                </p>
-                <h1 className="text-3xl md:text-4xl font-bold mb-4">
+              <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">            
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
                   Juzgado de Paz Lego N°3
                 </h1>
                 <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
+                <button
+                  className="mt-2 px-6 py-2 rounded-full bg-purple-700 text-white font-semibold shadow-md hover:bg-purple-800 transition-colors duration-200"
+                  onClick={() => window.location.href = '#ubicacion'}
+                >
+                  Visítanos
+                </button>
               </div>
-              
               {/* Gradiente de tailwind, puedes especificar valores personalizados rgba con []. */}
               <div className=" absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.2)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
-              
               <img src={banner2} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3" />
             </div>
           </CarouselItem>
-        
+
           <CarouselItem>
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[540px]">
               {/* Contenedor de texto */}
-              <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
-                <p className="md:text-gray-800 mb-4">
-                  ¡Transformando La Rioja, día a día!
-                </p>
-                <h1 className="text-3xl md:text-4xl font-bold mb-4">
+              <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">            
+                <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
                   Juzgado de Paz Lego N°3
                 </h1>
                 <p className="md:text-gray-800 mb-4">
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
+                <button
+                  className="mt-2 px-6 py-2 rounded-full bg-purple-700 text-white font-semibold shadow-md hover:bg-purple-800 transition-colors duration-200"
+                  onClick={() => window.location.href = '#ubicacion'}
+                >
+                  Visítanos
+                </button>
               </div>
-              
               {/* Gradiente de tailwind, puedes especificar valores personalizados rgba con []. */}
               <div className=" absolute inset-0 w-full h-full bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0.2)] md:from-[rgba(255,255,255,0.8)] md:to-transparent z-10"></div>              
-              
               <img src={banner3} alt="Banner 3" className="absolute inset-0 w-full h-full object-cover object-position-mobile-3" />
             </div>
           </CarouselItem>

@@ -31,9 +31,9 @@ const ShiftControl = ({id}: IntegrantesProps) => {
     };
 
     return (
-        <div id={id} className="bg-primary py-14">
-            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3 text-gray-800"> Personas comprometidas con la justicia comunitaria </h3>
-            <h2 className="font-poppins font-bold text-center text-3xl md:text-h2-desktop mb-8"> ¿Quiénes lo integran? </h2>
+        <div id={id} className="bg-primary pt-12 pb-14">
+            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3 text-gray-800" data-aos="zoom-in-up" data-aos-duration="800"> Personas comprometidas con la justicia comunitaria </h3>
+            <h2 className="font-poppins font-bold text-center text-3xl md:text-h2-desktop mb-8" data-aos="zoom-in-up" data-aos-duration="800"> ¿Quiénes lo integran? </h2>
             <Carousel
                 setApi={setApi}
                 plugins={[
@@ -47,6 +47,7 @@ const ShiftControl = ({id}: IntegrantesProps) => {
                     loop: true,
                 }}
                 className="mb-8"
+                 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"
             >
                 <CarouselContent>
                     <CarouselItem>
