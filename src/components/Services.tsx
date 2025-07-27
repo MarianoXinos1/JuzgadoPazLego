@@ -15,7 +15,7 @@ const Services = ({id}: ServicesProps) => {
             name: "Resolución de Conflictos Civiles y Comerciales",
             img: img1,
             text:
-                "\"Atendemos asuntos contenciosos y de jurisdicción en materia civil y comercial, brindando soluciones efectivas para casos cuyo monto no supere los $200.000.\"",
+                "\"Atendemos asuntos contenciosos y de jurisdicción en materia civil y comercial, brindando soluciones efectivas para casos cuyo monto no supere los $500.000.\"",
           
         },
         {
@@ -31,10 +31,10 @@ const Services = ({id}: ServicesProps) => {
                 "\"Recepción y certificación de declaraciones juradas para diversos trámites legales.\"",     
         },
         {
-            name: "Licencias de Conducir",
+            name: "Autorizaciones de Licencias de Conducir",
             img: img4,
             text:
-                "\"Autorización para realizar licencias de conducir para adolescentes de 16 a 17 años.\"",     
+                "\"Realizamos autorizaciones de licencias de conducir para adolescentes de 16 a 17 años.\"",     
         },
     ];
 
