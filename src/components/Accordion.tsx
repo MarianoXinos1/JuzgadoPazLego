@@ -13,7 +13,7 @@ export default function Accordion({id}: AccordionProps) {
         <p className="text-sm text-gray-800 mb-2">
           Estas son las preguntas frecuentes.
         </p>
-        <h2 className="text-3xl font-bold">¿Aún con dudas?</h2>
+        <h2 className="text-4xl md:text-5xl font-bold">¿Aún con dudas?</h2>
       </div>
 
       <Accordions.Root type="single" collapsible className="space-y-4">

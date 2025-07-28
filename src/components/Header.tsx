@@ -59,7 +59,7 @@ const Header = () => {
                   Bienvenidos al Juzgado de Paz Lego N°3. Aqui trabajamos para garantizar el acceso a la justicia para todos y todas. Estamos ubicados en el CEPAR Sur de la Rioja.
                 </p>
                 <button
-                  className="mt-2 px-6 py-2 rounded-full bg-purple-700 text-white font-semibold shadow-md hover:bg-purple-800 transition-colors duration-200"
+                  className="mt-2 px-6 py-2 rounded-full bg-purple-700 text-white font-semibold shadow-md transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-300"
                   onClick={() => window.location.href = '#ubicacion'}
                 >
                   Visítanos

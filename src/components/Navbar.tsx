@@ -9,7 +9,12 @@ export const Navbar = () => {
         <nav className="bg-white shadow-lg sticky top-0 z-50">  
             <section className='max-w-7xl mx-auto h-20 flex items-center justify-between px-4'>
                 <div>
-                    <p> Logo</p>
+                    <p
+                        className='cursor-pointer'
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    > 
+                        Juzgado De Paz Lego N°3
+                    </p>
                 </div>
                 
                 <div className='flex items-center'>
