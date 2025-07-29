@@ -26,7 +26,7 @@ export default function Accordion({id}: AccordionProps) {
           value="item-2"
           question="¿Qué hacemos y cómo podemos ayudarte con tus trámites?"
         >
-          Hacemos licencias de conducir, declaraciones juradas, certificación de firmas-copias, asuntos contenciosos y de jurisdición en materia civil y comercial hasta los 200mil pesos.
+          Hacemos licencias de conducir, declaraciones juradas, certificación de firmas-copias, asuntos contenciosos y de jurisdición en materia civil y comercial hasta los 500mil pesos.
         </AccordionsItem>
 
         <AccordionsItem
